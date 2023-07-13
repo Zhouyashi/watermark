@@ -1,8 +1,9 @@
 {
-  "name": "@zys/watermark",
+  "name": "@zhouys/watermark",
   "version": "1.0.0",
-  "description": "实现水印交错显示功能",
-  "main": "index.js",
+  "description": "给前端html页面增加水印,实现水印交错显示功能",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "npx jest --config jestconfig.json --env=jsdom",
     "build": "npx --package typescript tsc"
@@ -17,6 +18,7 @@
     "typescript": "^5.1.6"
   },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "src"
   ]
 }
